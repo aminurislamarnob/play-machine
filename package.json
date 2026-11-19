@@ -1,7 +1,7 @@
 {
   "name": "course-playmachine",
   "productName": "Playmachine",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Local macOS course player & personal LMS desktop app with automatic lesson title generation",
   "main": "dist-electron/main.js",
   "author": "Playmachine",
