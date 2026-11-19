@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Build & packaging outputs
+dist/
+dist-electron/
+release/
+
+# Logs & caches
+*.log
+npm-debug.log*
+.vite/
+.eslintcache
+
+# macOS & Editor files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+.idea/
+.vscode/

@@ -1,0 +1,30 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="squircle">
+      <rect x="64" y="64" width="896" height="896" rx="200"/>
+    </clipPath>
+  </defs>
+  <!-- macOS rounded squircle backdrop in Faddy Ivory -->
+  <rect x="64" y="64" width="896" height="896" rx="200" fill="#FCF8EB"/>
+  <!-- Subtle editorial grid lines clipped cleanly inside squircle -->
+  <g clip-path="url(#squircle)">
+    <line x1="256" y1="64" x2="256" y2="960" stroke="#E2DCCB" stroke-width="6"/>
+    <line x1="768" y1="64" x2="768" y2="960" stroke="#E2DCCB" stroke-width="6"/>
+    <line x1="64" y1="256" x2="960" y2="256" stroke="#E2DCCB" stroke-width="6"/>
+    <line x1="64" y1="768" x2="960" y2="768" stroke="#E2DCCB" stroke-width="6"/>
+  </g>
+  <!-- Crisp outer ink border -->
+  <rect x="64" y="64" width="896" height="896" rx="200" stroke="#022435" stroke-width="24"/>
+  <!-- Hard offset teal shadow block -->
+  <rect x="260" y="276" width="548" height="512" rx="124" fill="#42BFBF"/>
+  <!-- Main Faddy Mint play-card mascot -->
+  <rect x="216" y="228" width="548" height="512" rx="124" fill="#AAF3CE" stroke="#022435" stroke-width="34"/>
+  <!-- Gloss highlight -->
+  <path d="M312 326C312 308 326 294 344 294H436" stroke="#FFFDF7" stroke-width="32" stroke-linecap="round"/>
+  <!-- Peach corner dot -->
+  <circle cx="648" cy="332" r="36" fill="#FCA890" stroke="#022435" stroke-width="22"/>
+  <!-- Deep Ink play triangle -->
+  <path d="M432 396L606 492C619 499 619 517 606 524L432 620C419 627 403 618 403 603V413C403 398 419 389 432 396Z" fill="#022435"/>
+  <!-- Mint glint inside play icon -->
+  <circle cx="462" cy="468" r="22" fill="#AAF3CE"/>
+</svg>
